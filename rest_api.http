@@ -1,0 +1,18 @@
+@baseUrl = https://vast-savannah-75068.herokuapp.com
+
+
+POST {{baseUrl}}/incidentsNoImage
+Content-Type: application/json
+
+{
+      "title":"test title",
+      "description":"test description"
+}
+
+###
+
+
+GET {{baseUrl}}/incidents
+
+
+###
